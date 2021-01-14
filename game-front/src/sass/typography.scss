@@ -1,0 +1,96 @@
+a {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  &.fency {
+    background-size: 150% auto;
+    background-image: linear-gradient(
+      to right,
+      rgb(124, 187, 238),
+      rgb(221, 113, 243)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    &:hover {
+      transition: 500ms;
+      background-position: right;
+    }
+  }
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  &.fency {
+    background-size: 150% auto;
+    background-image: linear-gradient(
+      to right,
+      rgb(233, 112, 91),
+      rgb(235, 175, 47)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    &:hover {
+      transition: 2s;
+      background-position: right;
+    }
+  }
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  &.fency {
+    background-size: 150% auto;
+    background-image: linear-gradient(
+      to right,
+      rgb(124, 187, 238),
+      rgb(221, 113, 243)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    &:hover {
+      transition: 500ms;
+      background-position: right;
+    }
+  }
+}
+
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  text-indent: 20px;
+  min-height: 50px;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  &.fency {
+    background-image: linear-gradient(
+      to right,
+      rgb(124, 187, 238),
+      rgb(221, 113, 243)
+    );
+    background-size: 200% auto;
+    transition: 1s;
+    &:hover {
+      background-position: right;
+    }
+  }
+  color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  min-height: 50px;
+}

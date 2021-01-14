@@ -1,0 +1,22 @@
+{
+  "name": "game-front",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "start": "http-server -d false ./dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.4"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
